@@ -524,6 +524,12 @@ footer{
     }
 }
 
+@media (max-width:714px) {
+    .block1_banner{
+        height: 30%;
+    }
+}
+
 @media (max-width:650px) {
     .block2_conteiner{
         grid-template-columns: 1fr;
@@ -553,11 +559,25 @@ footer{
         display: none;
         visibility: none;
     }
+
+@media (max-width:500px) {
+    .main_block4{
+        padding-bottom: 30%;
+    }
+}
+
 @media (max-width:430px) {
     .block6_input input,
     .block6_feedbacks textarea{
         width: 300px;
     }
+    .main_block4{
+        padding-bottom: 35%;
+    }
+    .main_block6{
+        height: 90vh;
+    }
+
 }
 @media (max-width:365px) {
     .block6_input input,
